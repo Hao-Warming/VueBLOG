@@ -75,7 +75,7 @@ npm run serve
 │      │
 │      ├─ middlewares   中间件
 │      │
-│      ├─app.js
+│      ├─app.js        服务器入口
 │     
 │
 ├─src
