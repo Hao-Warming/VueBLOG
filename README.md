@@ -51,6 +51,13 @@ npm run serve
 - 确保本地安装好mongodb
 
 
+### 效果展示
+#### 前台效果
+
+首页
+![主页](gitImages/1.png)
+
+
 
 ### 目录
 ```
