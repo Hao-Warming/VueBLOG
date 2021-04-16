@@ -32,21 +32,65 @@
 
 克隆远程库
 ```
-git clone https://github.com/FatDong1/VueBlog.git
+git clone git@github.com:Hao-Warming/VueBLOG.git
 ```
 进入项目目录VueBlog后，安装依赖
 ```
 npm install
 ```
-安装完数据库后，启动mongodb。（不要关闭当前窗口，然后重新打开另外一个dos窗口，进行下一个步骤）
+运行server文件夹下的app.js，该文件为服务器开关。（确保数据库mongodb已经启动）
+
+在8080端口热重载开发，等待一会后，会自动弹出浏览器窗口
 ```
-mongod --dbpath d:\data      // d:\data 为数据库文件夹位置，可自行设置
+npm run serve
 ```
-运行服务器。（确保数据库mongodb已经启动，不要关闭当前窗口，然后重新打开另外一个dos窗口，进行下一个步骤）
+
+### 注意
+- 账户：admin 密码：aa123456
+- 进入后台管理页面只需在URL后面添加路径"/admin"，登陆后即可进入
+- 确保本地安装好mongodb
+
+### 目录
 ```
-npm run start
-```
-在8082端口热重载开发，等待一会后，会自动弹出浏览器窗口，加载会比较慢，请耐心等待
-```
-npm run dev
+│  babel.config.js      babel配置
+│  .gitignore           git上传忽略
+│  .env.development     
+│  .env.production
+│  vue.config.js        项目配置
+│  package.lock.json
+│  package.json
+│  README.md
+│  
+│
+├─public
+│
+├─server                服务端
+│      │
+│      ├─ api           api接口
+│      │
+│      ├─ db            数据库
+│      │
+│      ├─ middlewares   中间件
+│      │
+│      ├─app.js
+│     
+│
+├─src
+│   │  main.js        项目入口
+│   │  App.vue          根组件
+│   │
+│   ├─assets          文件资源
+│   │  ├─css
+│   │  |─font
+│   │  └─images
+│   │
+│   ├─components      vue组件
+│   │  ├─back         后台组件
+│   │
+│   ├─ plugin        
+│   │
+│   ├─router          路由
+│   │
+│   └─views           视图文件
+│
 ```
