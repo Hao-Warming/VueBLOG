@@ -51,12 +51,6 @@ npm run serve
 - 确保本地安装好mongodb
 
 
-### 效果展示
-#### 前台效果
-
-首页
-![主页](https://github.com/Hao-Warming/VueBLOG/blob/dev/gitImages/1.png)
-
 
 
 ### 目录
@@ -103,3 +97,7 @@ npm run serve
 │   └─views           视图文件
 │_
 ```
+
+### TODO
+- 加入状态管理（vuex）
+- 优化代码
