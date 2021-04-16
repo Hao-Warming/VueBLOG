@@ -55,7 +55,7 @@ npm run serve
 #### 前台效果
 
 首页
-![主页](gitImages/1.png)
+![主页](https://github.com/Hao-Warming/VueBLOG/blob/dev/gitImages/1.png)
 
 
 
