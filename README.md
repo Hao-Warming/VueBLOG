@@ -50,6 +50,8 @@ npm run serve
 - 进入后台管理页面只需在URL后面添加路径"/admin"，登陆后即可进入
 - 确保本地安装好mongodb
 
+
+
 ### 目录
 ```
 │  babel.config.js      babel配置
@@ -92,5 +94,5 @@ npm run serve
 │   ├─router          路由
 │   │
 │   └─views           视图文件
-│
+│_
 ```
