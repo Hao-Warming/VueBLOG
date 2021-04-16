@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+/* p, */
+
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr7 {
+    margin-right: 7px;
+}
+
+.layer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-time {
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    background: url(~@/assets/images/css_sprites.png) -157px -121px;
+    background-size: 291px;
+    position: relative;
+    top: 5px;
+}
+
+.bg-like {
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    background: url(~@/assets/images/css_sprites.png) -228px -120px;
+    background-size: 291px;
+    position: relative;
+    top: 5px;
+}
+
+.bg-reads {
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    background: url(~@/assets/images/css_sprites.png) -169px -171px;
+    background-size: 397px;
+    position: relative;
+    top: 4px;
+}
+
+.bg-award {
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    background: url(~@/assets/images/css_sprites.png) -237px -74px;
+    background-size: 355px;
+    position: relative;
+    top: 5px;
+}
+
+.bg-home {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url("~@/assets/images/css_sprites.png") -229px -105px;
+    background-size: 346px;
+    position: relative;
+    top: 2px;
+}
+
+.bg-sort {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url("~@/assets/images/css_sprites.png") -270px -105px;
+    background-size: 346px;
+    position: relative;
+    top: 2px;
+}
+
+.bg-archives {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    background: url("~@/assets/images/css_sprites.png") -183px -32px;
+    background-size: 346px;
+    position: relative;
+    top: 4px;
+}
+
+.bg-about {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url("~@/assets/images/css_sprites.png") -101px -105px;
+    background-size: 346px;
+    position: relative;
+    top: 4px;
+}
+
+.bg-email {
+    display: block;
+    height: 34px;
+    width: 50px;
+    background: url("~@/assets/images/css_sprites.png") -395px -104px;
+    background-size: 514px;
+    position: relative;
+    top: -4px;
+}
+
+.bg-github {
+    display: block;
+    height: 34px;
+    width: 50px;
+    background: url("~@/assets/images/css_sprites.png") -204px -104px;
+    background-size: 514px;
+    position: relative;
+    top: -4px;
+}
+
+.bg-zhihu {
+    display: block;
+    height: 34px;
+    width: 50px;
+    background: url("~@/assets/images/css_sprites.png") -270px -104px;
+    background-size: 514px;
+    position: relative;
+    top: -4px;
+}
+
+.bg-article {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url("~@/assets/images/css_sprites.png") -223px -26px;
+    background-size: 350px;
+    position: relative;
+    top: -4px;
+}
+
+.bg-letter {
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    background: url(~@/assets/images/css_sprites.png) -85px -29px;
+    background-size: 291px;
+    position: relative;
+    top: 5px;
+}
+
+.bg-name {
+    display: inline-block;
+    height: 34px;
+    width: 50px;
+    background: url(~@/assets/images/css_sprites.png) -265px -156px;
+    background-size: 514px;
+    position: relative;
+    top: 12px;
+}
+
+.bg-safety {
+    display: inline-block;
+    height: 29px;
+    width: 50px;
+    background: url(~@/assets/images/css_sprites.png) -77px -52px;
+    background-size: 514px;
+    position: relative;
+    top: 9px;
+}
+
+.bg-comment {
+    display: inline-block;
+    height: 34px;
+    width: 50px;
+    background: url(~@/assets/images/css_sprites.png) -205px -48px;
+    background-size: 514px;
+    position: relative;
+    top: -44px;
+}
+
+.bg-classify {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    background: url(~@/assets/images/css_sprites.png) -395px -260px;
+    background-size: 514px;
+    position: relative;
+    top: 8px;
+    right: 10px;
+}
